@@ -5,7 +5,7 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import pdfFile from '../../public/Liturgy-of-songs.pdf';  // Adjust the path as necessary
 
 function PDFViewer() {
-    const defaultScale = window.innerWidth < 768 ? 0.3 : 1.5; // 0.5x zoom for mobile, 1.5x for desktop
+    const defaultScale = window.innerWidth < 768 ? 0.5 : 1.5; // 0.5x zoom for mobile, 1.5x for desktop
   return (
     <div>
       <h1></h1>
