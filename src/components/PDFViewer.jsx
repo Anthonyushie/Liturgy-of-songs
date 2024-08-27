@@ -2,7 +2,7 @@ import React from 'react';
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
-import pdfFile from '../../public/Liturgy-of-songs.pdf';  // Adjust the path as necessary
+import pdfFile from '../../public/bob manuel requiem mass.pdf';  // Adjust the path as necessary
 
 function PDFViewer() {
     const defaultScale = window.innerWidth < 768 ? 0.5 : 1.5; // 0.5x zoom for mobile, 1.5x for desktop
